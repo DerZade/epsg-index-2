@@ -11,7 +11,7 @@
     "homepage": "https://github.com/DerZade/epsg-index-2#readme",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DerZade/epsg-index-2.git"
+        "url": "git+https://github.com/DerZade/epsg-index-2.git"
     },
     "bugs": {
         "url": "https://github.com/derzade/epsg-index-2/issues"
