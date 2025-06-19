@@ -1,0 +1,47 @@
+name: Index auto update
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: '0 0 * * 0'
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    update-index:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 22
+                  cache: 'npm'
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Update the index
+              run: npm run-script update-index
+              env:
+                  MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
+
+            - name: Create Pull Request
+              uses: peter-evans/create-pull-request@v7
+              id: pr
+              with:
+                  commit-message: 'chore: :wrench: update all.json'
+                  branch: auto-index-update
+                  sign-commits: true
+                  title: Automatic index update
+                  reviewers: DerZade
+                  draft: always-true
+                  delete-branch: true
+
+            - name: Invoke check-grids workflow
+              uses: benc-uk/workflow-dispatch@v1
+              with:
+                  workflow: check-grids
+                  ref: ${{ steps.pr.output.pull-request-head-sha }}
