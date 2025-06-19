@@ -15,6 +15,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+              with:
+                  ssh-key: ${{ secrets.GH_DEPLOY_KEY }}
 
             - uses: actions/setup-node@v4
               with:
@@ -35,13 +37,6 @@ jobs:
               with:
                   commit-message: 'chore: :wrench: update all.json'
                   branch: auto-index-update
-                  sign-commits: true
                   title: Automatic index update
                   reviewers: DerZade
                   delete-branch: true
-
-            - name: Invoke check-grids workflow
-              uses: benc-uk/workflow-dispatch@v1
-              with:
-                  workflow: check-grids.yml
-                  ref: ${{ steps.pr.outputs.pull-request-branch }}
