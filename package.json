@@ -24,7 +24,7 @@
     ],
     "author": "Jonas Schade <derzade@gmail.com>",
     "license": "MIT",
-    "description": "",
+    "description": "An up-to-date* list of all known EPSGs definitions as well as the nadgrid files, which are referenced by at least one EPSG definitions.",
     "files": [
         "codes",
         "grids",
