@@ -635,7 +635,7 @@
             33.28
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": 0.5,
         "deprecated": false
     },
@@ -901,9 +901,9 @@
         "wkt": "PROJCS[\"CH1903+ / LV95\",GEOGCS[\"CH1903+\",DATUM[\"CH1903+\",SPHEROID[\"Bessel 1841\",6377397.155,299.1528128],TOWGS84[674.374,15.056,405.346,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4150\"]],PROJECTION[\"Hotine_Oblique_Mercator_Azimuth_Center\"],PARAMETER[\"latitude_of_center\",46.9524055555556],PARAMETER[\"longitude_of_center\",7.43958333333333],PARAMETER[\"azimuth\",90],PARAMETER[\"rectified_grid_angle\",90],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",2600000],PARAMETER[\"false_northing\",1200000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"2056\"]]",
         "proj4": "+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -5099,7 +5099,7 @@
             22.58
         ],
         "unit": "metre",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": 1,
         "deprecated": false
     },
@@ -21723,7 +21723,7 @@
             22.58
         ],
         "unit": "metre",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": null,
         "deprecated": true
     },
@@ -22379,7 +22379,7 @@
             22.58
         ],
         "unit": "Clarke's foot",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -31979,7 +31979,7 @@
             33.28
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": 0.5,
         "deprecated": false
     },
@@ -32101,9 +32101,9 @@
         "wkt": "GEOGCS[\"CH1903\",DATUM[\"CH1903\",SPHEROID[\"Bessel 1841\",6377397.155,299.1528128],TOWGS84[674.374,15.056,405.346,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4149\"]]",
         "proj4": "+proj=longlat +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree (supplier to define representation)",
@@ -32117,9 +32117,9 @@
         "wkt": "GEOGCS[\"CH1903+\",DATUM[\"CH1903+\",SPHEROID[\"Bessel 1841\",6377397.155,299.1528128],TOWGS84[674.374,15.056,405.346,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4150\"]]",
         "proj4": "+proj=longlat +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree (supplier to define representation)",
@@ -32133,9 +32133,9 @@
         "wkt": "GEOGCS[\"CHTRS95\",DATUM[\"Swiss_Terrestrial_Reference_System_1995\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6151\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4151\"]]",
         "proj4": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree (supplier to define representation)",
@@ -34171,7 +34171,7 @@
             33.38
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Israel - onshore; Jordan; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Jordan; Palestine - onshore.",
         "accuracy": 2,
         "deprecated": false
     },
@@ -34475,7 +34475,7 @@
             45.54
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Japan - onshore; North Korea - onshore; South Korea - onshore.",
+        "area": "Japan - onshore; Democratic People's Republic of Korea (North Korea) - onshore; Republic of Korea (South Korea) - onshore.",
         "accuracy": 9,
         "deprecated": false
     },
@@ -34533,9 +34533,9 @@
         "wkt": "GEOGCS[\"Bern 1938\",DATUM[\"Bern_1938\",SPHEROID[\"Bessel 1841\",6377397.155,299.1528128,AUTHORITY[\"EPSG\",\"7004\"]],AUTHORITY[\"EPSG\",\"6306\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4306\"]]",
         "proj4": "+proj=longlat +ellps=bessel +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree (supplier to define representation)",
@@ -34795,7 +34795,7 @@
             90
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
+        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hong Kong; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Macao; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Palestine; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
         "accuracy": null,
         "deprecated": false
     },
@@ -34843,7 +34843,7 @@
             90
         ],
         "unit": "degree minute second hemisphere",
-        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
+        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hong Kong; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Macao; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Palestine; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
         "accuracy": null,
         "deprecated": true
     },
@@ -35061,9 +35061,9 @@
         "wkt": null,
         "proj4": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree minute second hemisphere",
@@ -35077,9 +35077,9 @@
         "wkt": "GEOCCS[\"CHTRF95 (geocentric) (deprecated)\",DATUM[\"Swiss_Terrestrial_Reference_System_1995\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6151\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Geocentric X\",OTHER],AXIS[\"Geocentric Y\",OTHER],AXIS[\"Geocentric Z\",NORTH],AUTHORITY[\"EPSG\",\"4344\"]]",
         "proj4": "+proj=geocent +ellps=GRS80 +units=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -35739,7 +35739,7 @@
             90
         ],
         "unit": "metre",
-        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
+        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hong Kong; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Macao; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Palestine; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
         "accuracy": null,
         "deprecated": true
     },
@@ -38683,7 +38683,7 @@
             22.58
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": 1,
         "deprecated": false
     },
@@ -40651,7 +40651,7 @@
             22.58
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -40667,7 +40667,7 @@
             22.58
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": 1,
         "deprecated": false
     },
@@ -41653,9 +41653,9 @@
         "wkt": null,
         "proj4": "+proj=longlat +ellps=bessel +pm=bern +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree (supplier to define representation)",
@@ -43269,9 +43269,9 @@
         "wkt": "GEOCCS[\"CHTRS95\",DATUM[\"Swiss_Terrestrial_Reference_System_1995\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6151\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Geocentric X\",OTHER],AXIS[\"Geocentric Y\",OTHER],AXIS[\"Geocentric Z\",NORTH],AUTHORITY[\"EPSG\",\"4932\"]]",
         "proj4": "+proj=geocent +ellps=GRS80 +units=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -43285,9 +43285,9 @@
         "wkt": null,
         "proj4": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree (supplier to define representation)",
@@ -45019,7 +45019,7 @@
             45.54
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Japan - onshore; North Korea - onshore; South Korea - onshore.",
+        "area": "Japan - onshore; Democratic People's Republic of Korea (North Korea) - onshore; Republic of Korea (South Korea) - onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -50293,9 +50293,9 @@
         "wkt": "VERT_CS[\"LN02 height\",VERT_DATUM[\"Landesnivellement 1902\",2005,AUTHORITY[\"EPSG\",\"5127\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5728\"]]",
         "proj4": "+vunits=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -50309,9 +50309,9 @@
         "wkt": "VERT_CS[\"LHN95 height\",VERT_DATUM[\"Landeshohennetz 1995\",2005,AUTHORITY[\"EPSG\",\"5128\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5729\"]]",
         "proj4": "+vunits=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -50459,7 +50459,7 @@
             22.56
         ],
         "unit": "metre",
-        "area": "China - Hong Kong - onshore.",
+        "area": "Hong Kong - onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -50475,7 +50475,7 @@
             22.58
         ],
         "unit": "metre",
-        "area": "China - Hong Kong - offshore.",
+        "area": "Hong Kong - offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64427,7 +64427,7 @@
             33.28
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64443,7 +64443,7 @@
             33.28
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64459,7 +64459,7 @@
             33.28
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64475,7 +64475,7 @@
             33.28
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64539,7 +64539,7 @@
             33.28
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64555,7 +64555,7 @@
             33.28
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64571,7 +64571,7 @@
             33.28
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -64587,7 +64587,7 @@
             33.28
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -65787,7 +65787,7 @@
             33.38
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Jordan; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Jordan; Palestine - onshore.",
         "accuracy": 2,
         "deprecated": false
     },
@@ -72603,7 +72603,7 @@
             22.56
         ],
         "unit": "metre",
-        "area": "China - Hong Kong - onshore.",
+        "area": "Hong Kong - onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76651,7 +76651,7 @@
             22.58
         ],
         "unit": "metre",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76667,7 +76667,7 @@
             22.58
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76683,7 +76683,7 @@
             22.58
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76699,7 +76699,7 @@
             22.23
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Macao - onshore and offshore.",
+        "area": "Macao - onshore and offshore.",
         "accuracy": 1,
         "deprecated": false
     },
@@ -76715,7 +76715,7 @@
             22.23
         ],
         "unit": "metre",
-        "area": "China - Macao - onshore and offshore.",
+        "area": "Macao - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76731,7 +76731,7 @@
             22.23
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Macao - onshore and offshore.",
+        "area": "Macao - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76747,7 +76747,7 @@
             22.23
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "China - Macao - onshore and offshore.",
+        "area": "Macao - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -76763,7 +76763,7 @@
             22.23
         ],
         "unit": "metre",
-        "area": "China - Macao - onshore and offshore.",
+        "area": "Macao - onshore and offshore.",
         "accuracy": 1,
         "deprecated": false
     },
@@ -76779,7 +76779,7 @@
             22.23
         ],
         "unit": "metre",
-        "area": "China - Macao - onshore and offshore.",
+        "area": "Macao - onshore and offshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -89122,8 +89122,8 @@
     {
         "code": 10306,
         "name": "LKS-2020 / Latvia TM",
-        "wkt": "PROJCS[\"LKS-2020 / Latvia TM\",GEOGCS[\"LKS-2020\",DATUM[\"Latvian_coordinate_system_2020\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1356\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10305\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",24],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",-6000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"10306\"]]",
-        "proj4": "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=-6000000 +ellps=GRS80 +units=m +no_defs +type=crs",
+        "wkt": "PROJCS[\"LKS-2020 / Latvia TM\",GEOGCS[\"LKS-2020\",DATUM[\"Latvian_coordinate_system_2020\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10305\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",24],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",-6000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"10306\"]]",
+        "proj4": "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=-6000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
         "bbox": [
             19.06,
             55.67,
@@ -89132,7 +89132,7 @@
         ],
         "unit": "metre",
         "area": "Latvia - onshore and offshore.",
-        "accuracy": null,
+        "accuracy": 1,
         "deprecated": false
     },
     {
@@ -90779,7 +90779,7 @@
             90
         ],
         "unit": "degree (supplier to define representation)",
-        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
+        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hong Kong; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Macao; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Palestine; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
         "accuracy": null,
         "deprecated": false
     },
@@ -92011,7 +92011,7 @@
             90
         ],
         "unit": "metre",
-        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
+        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hong Kong; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Macao; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Palestine; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
         "accuracy": null,
         "deprecated": false
     },
@@ -92059,7 +92059,7 @@
             90
         ],
         "unit": "metre",
-        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
+        "area": "World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hong Kong; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; Democratic People's Republic of Korea (North Korea), Republic of Korea (South Korea), Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Macao; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Palestine; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe.",
         "accuracy": null,
         "deprecated": false
     },
@@ -92110,6 +92110,118 @@
         "area": "Canada - onshore south of 60°N - Alberta, British Columbia (BC), Manitoba, New Brunswick (NB), Newfoundland and Labrador, Nova Scotia (NS), Ontario, Prince Edward Island (PEI), Quebec and Saskatchewan.",
         "accuracy": null,
         "deprecated": true
+    },
+    {
+        "code": 10789,
+        "name": "UGRF",
+        "wkt": "GEOCCS[\"UGRF\",DATUM[\"Uganda_Geodetic_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1401\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Geocentric X\",OTHER],AXIS[\"Geocentric Y\",OTHER],AXIS[\"Geocentric Z\",NORTH],AUTHORITY[\"EPSG\",\"10789\"]]",
+        "proj4": "+proj=geocent +ellps=GRS80 +units=m +no_defs +type=crs",
+        "bbox": [
+            29.57,
+            -1.48,
+            35.01,
+            4.23
+        ],
+        "unit": "metre",
+        "area": "Uganda.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10790,
+        "name": "UGRF",
+        "wkt": null,
+        "proj4": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
+        "bbox": [
+            29.57,
+            -1.48,
+            35.01,
+            4.23
+        ],
+        "unit": "degree (supplier to define representation)",
+        "area": "Uganda.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10791,
+        "name": "UGRF",
+        "wkt": "GEOGCS[\"UGRF\",DATUM[\"Uganda_Geodetic_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1401\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10791\"]]",
+        "proj4": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
+        "bbox": [
+            29.57,
+            -1.48,
+            35.01,
+            4.23
+        ],
+        "unit": "degree (supplier to define representation)",
+        "area": "Uganda.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10792,
+        "name": "UGRF / UTM zone 35N",
+        "wkt": "PROJCS[\"UGRF / UTM zone 35N\",GEOGCS[\"UGRF\",DATUM[\"Uganda_Geodetic_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10791\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10792\"]]",
+        "proj4": "+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+        "bbox": [
+            29.71,
+            0,
+            30,
+            0.86
+        ],
+        "unit": "metre",
+        "area": "Uganda - north of equator and west of 30°E.",
+        "accuracy": 1,
+        "deprecated": false
+    },
+    {
+        "code": 10793,
+        "name": "UGRF / UTM zone 36N",
+        "wkt": "PROJCS[\"UGRF / UTM zone 36N\",GEOGCS[\"UGRF\",DATUM[\"Uganda_Geodetic_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10791\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",33],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10793\"]]",
+        "proj4": "+proj=utm +zone=36 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+        "bbox": [
+            30,
+            0,
+            35.01,
+            4.23
+        ],
+        "unit": "metre",
+        "area": "Uganda - north of equator and east of 30°E.",
+        "accuracy": 1,
+        "deprecated": false
+    },
+    {
+        "code": 10794,
+        "name": "UGRF / UTM zone 36S",
+        "wkt": "PROJCS[\"UGRF / UTM zone 36S\",GEOGCS[\"UGRF\",DATUM[\"Uganda_Geodetic_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10791\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",33],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10794\"]]",
+        "proj4": "+proj=utm +zone=36 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+        "bbox": [
+            30,
+            -1.45,
+            33.98,
+            0
+        ],
+        "unit": "metre",
+        "area": "Uganda - south of equator and east of 30°E.",
+        "accuracy": 1,
+        "deprecated": false
+    },
+    {
+        "code": 10795,
+        "name": "UGRF / UTM zone 35S",
+        "wkt": "PROJCS[\"UGRF / UTM zone 35S\",GEOGCS[\"UGRF\",DATUM[\"Uganda_Geodetic_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10791\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10795\"]]",
+        "proj4": "+proj=utm +zone=35 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+        "bbox": [
+            29.57,
+            -1.48,
+            30,
+            0
+        ],
+        "unit": "metre",
+        "area": "Uganda - south of equator and west of 30°E.",
+        "accuracy": 1,
+        "deprecated": false
     },
     {
         "code": 10798,
@@ -92210,8 +92322,8 @@
     {
         "code": 10826,
         "name": "LKS-92 + Latvia 2000 height",
-        "wkt": null,
-        "proj4": null,
+        "wkt": "COMPD_CS[\"LKS-92 + Latvia 2000 height\",GEOGCS[\"LKS-92\",DATUM[\"Latvian_geodetic_coordinate_system_1992\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6661\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4661\"]],VERT_CS[\"Latvia 2000 height\",VERT_DATUM[\"Latvian Height System 2000\",2005,AUTHORITY[\"EPSG\",\"1162\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"7700\"]],AUTHORITY[\"EPSG\",\"10826\"]]",
+        "proj4": "+proj=longlat +ellps=GRS80 +vunits=m +no_defs +type=crs",
         "bbox": [
             20.87,
             55.67,
@@ -92220,6 +92332,102 @@
         ],
         "unit": null,
         "area": "Latvia - onshore.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10839,
+        "name": "LKS-2020 + Latvia 2000 height",
+        "wkt": "COMPD_CS[\"LKS-2020 + Latvia 2000 height\",GEOGCS[\"LKS-2020\",DATUM[\"Latvian_coordinate_system_2020\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1356\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10305\"]],VERT_CS[\"Latvia 2000 height\",VERT_DATUM[\"Latvian Height System 2000\",2005,AUTHORITY[\"EPSG\",\"1162\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"7700\"]],AUTHORITY[\"EPSG\",\"10839\"]]",
+        "proj4": "+proj=longlat +ellps=GRS80 +vunits=m +no_defs +type=crs",
+        "bbox": [
+            20.87,
+            55.67,
+            28.24,
+            58.09
+        ],
+        "unit": null,
+        "area": "Latvia - onshore.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10849,
+        "name": "EWR3-IRF",
+        "wkt": "GEOGCS[\"EWR3-IRF\",DATUM[\"EWR3_Intermediate_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1405\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10849\"]]",
+        "proj4": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
+        "bbox": [
+            -1.43,
+            51.7,
+            0.27,
+            52.33
+        ],
+        "unit": "degree (supplier to define representation)",
+        "area": "United Kingdom (UK) - on or related to the East West Rail (Phases 2 and 3) route from Oxford to Cambridge via Bicester, Bletchley and Bedford, including the route from Claydon Junction to Aylesbury and Princes Risborough.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10851,
+        "name": "EWR3 Grid",
+        "wkt": "PROJCS[\"EWR3 Grid\",GEOGCS[\"EWR3-IRF\",DATUM[\"EWR3_Intermediate_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1405\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10849\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",51.95],PARAMETER[\"central_meridian\",-0.9],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",192519.9715],PARAMETER[\"false_northing\",146942.6806],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10851\"]]",
+        "proj4": "+proj=tmerc +lat_0=51.95 +lon_0=-0.9 +k=1 +x_0=192519.9715 +y_0=146942.6806 +ellps=GRS80 +units=m +no_defs +type=crs",
+        "bbox": [
+            -1.43,
+            51.7,
+            0.27,
+            52.33
+        ],
+        "unit": "metre",
+        "area": "United Kingdom (UK) - on or related to the East West Rail (Phases 2 and 3) route from Oxford to Cambridge via Bicester, Bletchley and Bedford, including the route from Claydon Junction to Aylesbury and Princes Risborough.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10852,
+        "name": "EWR3 Grid + ODN height",
+        "wkt": "COMPD_CS[\"EWR3 Grid + ODN height\",PROJCS[\"EWR3 Grid\",GEOGCS[\"EWR3-IRF\",DATUM[\"EWR3_Intermediate_Reference_Frame\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1405\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10849\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",51.95],PARAMETER[\"central_meridian\",-0.9],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",192519.9715],PARAMETER[\"false_northing\",146942.6806],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10851\"]],VERT_CS[\"ODN height\",VERT_DATUM[\"Ordnance Datum Newlyn\",2005,AUTHORITY[\"EPSG\",\"5101\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5701\"]],AUTHORITY[\"EPSG\",\"10852\"]]",
+        "proj4": "+proj=tmerc +lat_0=51.95 +lon_0=-0.9 +k=1 +x_0=192519.9715 +y_0=146942.6806 +ellps=GRS80 +units=m +vunits=m +no_defs +type=crs",
+        "bbox": [
+            -1.43,
+            51.7,
+            0.27,
+            52.33
+        ],
+        "unit": null,
+        "area": "United Kingdom (UK) - on or related to the East West Rail (Phases 2 and 3) route from Oxford to Cambridge via Bicester, Bletchley and Bedford, including the route from Claydon Junction to Aylesbury and Princes Risborough.",
+        "accuracy": null,
+        "deprecated": false
+    },
+    {
+        "code": 10857,
+        "name": "SIRGAS 2000 / Brazil Albers",
+        "wkt": "PROJCS[\"SIRGAS 2000 / Brazil Albers\",GEOGCS[\"SIRGAS 2000\",DATUM[\"Sistema_de_Referencia_Geocentrico_para_las_AmericaS_2000\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4674\"]],PROJECTION[\"Albers_Conic_Equal_Area\"],PARAMETER[\"latitude_of_center\",-12],PARAMETER[\"longitude_of_center\",-54],PARAMETER[\"standard_parallel_1\",-2],PARAMETER[\"standard_parallel_2\",-22],PARAMETER[\"false_easting\",5000000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"10857\"]]",
+        "proj4": "+proj=aea +lat_0=-12 +lon_0=-54 +lat_1=-2 +lat_2=-22 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+        "bbox": [
+            -74.01,
+            -33.78,
+            -34.74,
+            5.28
+        ],
+        "unit": "metre",
+        "area": "Brazil - onshore.",
+        "accuracy": 1,
+        "deprecated": false
+    },
+    {
+        "code": 10865,
+        "name": "CGRS93 + Famagusta 1960 height",
+        "wkt": "COMPD_CS[\"CGRS93 + Famagusta 1960 height\",GEOGCS[\"CGRS93\",DATUM[\"Cyprus_Geodetic_Reference_System_1993\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"1112\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6311\"]],VERT_CS[\"Famagusta 1960 height\",VERT_DATUM[\"Famagusta 1960\",2005,AUTHORITY[\"EPSG\",\"1148\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"7446\"]],AUTHORITY[\"EPSG\",\"10865\"]]",
+        "proj4": "+proj=longlat +ellps=WGS84 +vunits=m +no_defs +type=crs",
+        "bbox": [
+            32.2,
+            34.59,
+            34.65,
+            35.74
+        ],
+        "unit": null,
+        "area": "Cyprus - onshore.",
         "accuracy": null,
         "deprecated": false
     },
@@ -97781,9 +97989,9 @@
         "wkt": null,
         "proj4": "+proj=somerc +lat_0=46.9524055555556 +lon_0=0 +k_0=1 +x_0=0 +y_0=0 +ellps=bessel +pm=bern +units=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -97797,9 +98005,9 @@
         "wkt": "PROJCS[\"CH1903 / LV03\",GEOGCS[\"CH1903\",DATUM[\"CH1903\",SPHEROID[\"Bessel 1841\",6377397.155,299.1528128],TOWGS84[674.374,15.056,405.346,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4149\"]],PROJECTION[\"Hotine_Oblique_Mercator_Azimuth_Center\"],PARAMETER[\"latitude_of_center\",46.9524055555556],PARAMETER[\"longitude_of_center\",7.43958333333333],PARAMETER[\"azimuth\",90],PARAMETER[\"rectified_grid_angle\",90],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",600000],PARAMETER[\"false_northing\",200000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"21781\"]]",
         "proj4": "+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs +type=crs",
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "metre",
@@ -109371,7 +109579,7 @@
             33.38
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Jordan; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Jordan; Palestine - onshore.",
         "accuracy": 2,
         "deprecated": false
     },
@@ -109387,7 +109595,7 @@
             33.38
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Jordan; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Jordan; Palestine - onshore.",
         "accuracy": 2,
         "deprecated": false
     },
@@ -109403,7 +109611,7 @@
             33.28
         ],
         "unit": "metre",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": 2,
         "deprecated": false
     },
@@ -120539,7 +120747,7 @@
             84
         ],
         "unit": "metre",
-        "area": "Between 30°E and 36°E, northern hemisphere between equator and 84°N, onshore and offshore. Belarus. Cyprus. Egypt. Ethiopia. Finland. Israel. Jordan. Kenya. Lebanon. Moldova. Norway. Russian Federation. Saudi Arabia. Sudan. Syria. Türkiye (Turkey). Uganda. Ukraine.",
+        "area": "Between 30°E and 36°E, northern hemisphere between equator and 84°N, onshore and offshore. Belarus. Cyprus. Egypt. Ethiopia. Finland. Israel. Jordan. Kenya. Lebanon. Moldova. Norway. Palestine. Russian Federation. Saudi Arabia. Sudan. Syria. Türkiye (Turkey). Uganda. Ukraine.",
         "accuracy": null,
         "deprecated": false
     },
@@ -120779,7 +120987,7 @@
             84
         ],
         "unit": "metre",
-        "area": "Between 120°E and 126°E, northern hemisphere between equator and 84°N, onshore and offshore. China. Indonesia. Japan. North Korea. Philippines. Russian Federation. South Korea. Taiwan.",
+        "area": "Between 120°E and 126°E, northern hemisphere between equator and 84°N, onshore and offshore. China. Indonesia. Japan. Democratic People's Republic of Korea (North Korea). Republic of Korea (South Korea). Philippines. Russian Federation. Taiwan.",
         "accuracy": null,
         "deprecated": false
     },
@@ -120795,7 +121003,7 @@
             84
         ],
         "unit": "metre",
-        "area": "Between 126°E and 132°E, northern hemisphere between equator and 84°N, onshore and offshore. China. Indonesia. Japan. North Korea. Russian Federation. South Korea.",
+        "area": "Between 126°E and 132°E, northern hemisphere between equator and 84°N, onshore and offshore. China. Indonesia. Japan. Democratic People's Republic of Korea (North Korea). Republic of Korea (South Korea). Russian Federation.",
         "accuracy": null,
         "deprecated": false
     },
@@ -122491,7 +122699,7 @@
             33.28
         ],
         "unit": "degree",
-        "area": "Israel - onshore; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Palestine onshore.",
         "accuracy": 0.5,
         "deprecated": true
     },
@@ -122629,9 +122837,9 @@
         "wkt": null,
         "proj4": null,
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree",
@@ -122645,9 +122853,9 @@
         "wkt": null,
         "proj4": null,
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree",
@@ -122661,9 +122869,9 @@
         "wkt": null,
         "proj4": null,
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree",
@@ -122677,9 +122885,9 @@
         "wkt": null,
         "proj4": null,
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree",
@@ -124763,7 +124971,7 @@
             33.38
         ],
         "unit": "degree",
-        "area": "Israel - onshore; Jordan; Palestine Territory - onshore.",
+        "area": "Israel - onshore; Jordan; Palestine - onshore.",
         "accuracy": 2,
         "deprecated": true
     },
@@ -125019,7 +125227,7 @@
             45.54
         ],
         "unit": "degree",
-        "area": "Japan - onshore; North Korea - onshore; South Korea - onshore.",
+        "area": "Japan - onshore; Democratic People's Republic of Korea (North Korea) - onshore; Republic of Korea (South Korea) - onshore.",
         "accuracy": 9,
         "deprecated": true
     },
@@ -125077,9 +125285,9 @@
         "wkt": null,
         "proj4": null,
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree",
@@ -125771,7 +125979,7 @@
             22.58
         ],
         "unit": "degree",
-        "area": "China - Hong Kong - onshore and offshore.",
+        "area": "Hong Kong - onshore and offshore.",
         "accuracy": 1,
         "deprecated": true
     },
@@ -126613,9 +126821,9 @@
         "wkt": null,
         "proj4": null,
         "bbox": [
-            5.96,
-            45.82,
-            10.49,
+            5.95,
+            45.81,
+            10.5,
             47.81
         ],
         "unit": "degree",
