@@ -3,7 +3,7 @@
 _A spiritual successor to
 [`epsg-index`](https://github.com/derhuerst/epsg-index)_
 
-`epsg-index-2` includes an _up-to-date\*_ list of all known EPSGs definitions as well as the nadgrid files, which are referenced by at least one EPSG definitions.
+`epsg-index-2` includes an _up-to-date\*_ list of all known EPSGs definitions as well as the nadgrid files, which are referenced by at least one EPSG definition.
 
 _\* The list of EPSGs is loaded from the [MapTiler](https://www.maptiler.com/) API once a week._
 
