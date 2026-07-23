@@ -39,6 +39,15 @@ OUT_FILE = Path(__file__).resolve().parent.parent / 'all.json'
 # PROJ emits plenty of "lossy conversion" warnings for to_proj4/WKT1 exports.
 warnings.filterwarnings('ignore')
 
+def with_axis(proj4: str | None) -> str | None:
+    if proj4 is None or '+axis=' in proj4:
+        return proj4
+
+    # +axis=enu is PROJ's default. Making it explicit preserves the behavior
+    # of definitions that do not have a PROJ-exportable axis ordering (for
+    # example polar CRSs with two north-oriented axes).
+    return proj4.replace(' +type=crs', ' +axis=enu +type=crs')
+
 
 def bound_to_wgs84(crs: CRS, transformers) -> CRS:
     """Bind ``crs`` to WGS84 using PROJ's default transformation (mimics
@@ -88,7 +97,7 @@ def build_entry(item: tuple[int, str, bool]) -> dict:
 
     proj4 = None
     try:
-        proj4 = export_crs.to_proj4()
+        proj4 = with_axis(export_crs.to_proj4())
     except Exception:
         pass
 
