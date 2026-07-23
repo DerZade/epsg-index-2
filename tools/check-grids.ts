@@ -12,19 +12,19 @@ const allEPSGs: EPSG[] = JSON.parse(await readFile(join(import.meta.dirname, '..
 
 let exitCode = 0;
 
-const EXISTING_GRIDS = await readdir(GRIDS_DIR, { withFileTypes: true }).then(arr => new Set(arr.map(x => x.name)));
+const EXISTING_GRIDS = await readdir(GRIDS_DIR, { withFileTypes: true }).then((arr) => new Set(arr.map((x) => x.name)));
 
 for (const { code, proj4: proj4Def } of allEPSGs) {
-    if (!proj4Def) continue;
-    const name = `EPSG:${code}`;
-    proj4.defs(name, proj4Def);
+  if (!proj4Def) continue;
+  const name = `EPSG:${code}`;
+  proj4.defs(name, proj4Def);
 
-    const def = proj4.defs(name);
-    if (!def.nadgrids) continue;
-    if (EXISTING_GRIDS.has(def.nadgrids)) continue;
+  const def = proj4.defs(name);
+  if (!def.nadgrids) continue;
+  if (EXISTING_GRIDS.has(def.nadgrids)) continue;
 
-    exitCode = 1;
-    console.log(`${name} requires grid "${def.nadgrids}", but it is missing.`);
+  exitCode = 1;
+  console.log(`${name} requires grid "${def.nadgrids}", but it is missing.`);
 }
 
 exit(exitCode);
