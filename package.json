@@ -33,7 +33,6 @@
     "index.d.ts"
   ],
   "devDependencies": {
-    "@sinclair/typebox": "^0.34.35",
     "@types/node": "^25.9.3",
     "@types/proj4": "^2.5.6",
     "prettier": "^3.9.6",
@@ -41,7 +40,7 @@
     "tsx": "^4.20.3"
   },
   "scripts": {
-    "update-index": "tsx tools/update-index.ts",
+    "update-index": "python3 tools/update-index.py",
     "check-grids": "tsx tools/check-grids.ts",
     "build": "tsx tools/build.ts",
     "prepublishOnly": "npm run build",
