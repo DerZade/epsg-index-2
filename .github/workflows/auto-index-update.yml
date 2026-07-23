@@ -18,18 +18,15 @@ jobs:
         with:
           ssh-key: ${{ secrets.GH_DEPLOY_KEY }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: 22
-          cache: 'npm'
+          python-version: '3.13'
 
       - name: Install dependencies
-        run: npm ci
+        run: pip install 'pyproj>=3.7'
 
       - name: Update the index
-        run: npm run-script update-index
-        env:
-          MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
+        run: python3 tools/update-index.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
