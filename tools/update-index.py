@@ -39,14 +39,45 @@ OUT_FILE = Path(__file__).resolve().parent.parent / 'all.json'
 # PROJ emits plenty of "lossy conversion" warnings for to_proj4/WKT1 exports.
 warnings.filterwarnings('ignore')
 
-def with_axis(proj4: str | None) -> str | None:
+AXIS_ORIENTATION_MAP = {
+    'east': 'e',
+    'west': 'w',
+    'north': 'n',
+    'south': 's',
+    'up': 'u',
+    'down': 'd',
+}
+NON_AXIS_ORIENTATIONS = {'geocentricx', 'geocentricy', 'geocentricz', 'unspecified'}
+
+
+def proj4_axis(axis_info) -> str | None:
+    """Return a PROJ +axis value for an ordered sequence of CRS axes."""
+    directions = [axis.direction.lower() for axis in axis_info]
+    if len(directions) < 2 or any(direction in NON_AXIS_ORIENTATIONS for direction in directions):
+        return None
+
+    characters = []
+    for direction in directions:
+        for orientation, character in AXIS_ORIENTATION_MAP.items():
+            if direction.startswith(orientation):
+                characters.append(character)
+                break
+        else:
+            return None
+
+    if len(characters) > 3:
+        return None
+    return ''.join(characters + ['u'] * (3 - len(characters)))
+
+
+def with_axis(proj4: str | None, axis_info) -> str | None:
     if proj4 is None or '+axis=' in proj4:
         return proj4
 
-    # +axis=enu is PROJ's default. Making it explicit preserves the behavior
-    # of definitions that do not have a PROJ-exportable axis ordering (for
-    # example polar CRSs with two north-oriented axes).
-    return proj4.replace(' +type=crs', ' +axis=enu +type=crs')
+    axis = proj4_axis(axis_info)
+    if axis is None:
+        return proj4
+    return proj4.replace(' +type=crs', f' +axis={axis} +type=crs')
 
 
 def bound_to_wgs84(crs: CRS, transformers) -> CRS:
@@ -97,7 +128,7 @@ def build_entry(item: tuple[int, str, bool]) -> dict:
 
     proj4 = None
     try:
-        proj4 = with_axis(export_crs.to_proj4())
+        proj4 = with_axis(export_crs.to_proj4(), crs.axis_info)
     except Exception:
         pass
 
