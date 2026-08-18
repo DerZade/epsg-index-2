@@ -40,7 +40,8 @@
     "tsx": "^4.20.3"
   },
   "scripts": {
-    "preupdate-index": "pip install 'pyproj>=3.7' ",
+    "fetch-proj-db": "python3 tools/fetch-proj-db.py",
+    "preupdate-index": "pip install 'pyproj>=3.7' && npm run fetch-proj-db",
     "update-index": "python3 tools/update-index.py",
     "check-grids": "tsx tools/check-grids.ts",
     "build": "tsx tools/build.ts",

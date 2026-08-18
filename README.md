@@ -5,7 +5,7 @@ _A spiritual successor to
 
 `epsg-index-2` includes an _up-to-date\*_ list of all known EPSGs definitions as well as the nadgrid files, which are referenced by at least one EPSG definition.
 
-_\* The list of EPSGs is generated weekly from [PROJ](https://proj.org)'s `proj.db` (via [pyproj](https://pyproj4.github.io/pyproj/)), so its freshness is tied to the latest PROJ/pyproj release._
+_\* The list of EPSGs is generated weekly from the latest [PROJ](https://proj.org) database (`proj.db`), which is fetched from conda-forge before every update and read with [pyproj](https://pyproj4.github.io/pyproj/). Its freshness is therefore tied to the EPSG dataset of the newest PROJ release._
 
 ## Installing
 
