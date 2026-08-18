@@ -16355,7 +16355,7 @@
         "code": 3031,
         "name": "WGS 84 / Antarctic Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3031\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -16371,7 +16371,7 @@
         "code": 3032,
         "name": "WGS 84 / Australian Antarctic Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / Australian Antarctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-71],PARAMETER[\"central_meridian\",70],PARAMETER[\"false_easting\",6000000],PARAMETER[\"false_northing\",6000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3032\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=70 +x_0=6000000 +y_0=6000000 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=70 +x_0=6000000 +y_0=6000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             45.0,
             -90.0,
@@ -20259,7 +20259,7 @@
         "code": 3275,
         "name": "WGS 84 / SCAR IMW SU01-05",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU01-05\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-165],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3275\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-165 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-165 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -84.0,
@@ -20275,7 +20275,7 @@
         "code": 3276,
         "name": "WGS 84 / SCAR IMW SU06-10",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU06-10\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-135],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3276\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-135 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-135 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -150.0,
             -84.0,
@@ -20291,7 +20291,7 @@
         "code": 3277,
         "name": "WGS 84 / SCAR IMW SU11-15",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU11-15\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-105],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3277\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-105 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-105 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -120.0,
             -84.0,
@@ -20307,7 +20307,7 @@
         "code": 3278,
         "name": "WGS 84 / SCAR IMW SU16-20",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU16-20\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-75],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3278\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-75 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-75 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -90.0,
             -84.0,
@@ -20323,7 +20323,7 @@
         "code": 3279,
         "name": "WGS 84 / SCAR IMW SU21-25",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU21-25\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3279\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -60.0,
             -84.0,
@@ -20339,7 +20339,7 @@
         "code": 3280,
         "name": "WGS 84 / SCAR IMW SU26-30",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU26-30\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-15],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3280\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -30.0,
             -84.0,
@@ -20355,7 +20355,7 @@
         "code": 3281,
         "name": "WGS 84 / SCAR IMW SU31-35",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU31-35\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",15],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3281\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             0.0,
             -84.0,
@@ -20371,7 +20371,7 @@
         "code": 3282,
         "name": "WGS 84 / SCAR IMW SU36-40",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU36-40\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3282\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             30.0,
             -84.0,
@@ -20387,7 +20387,7 @@
         "code": 3283,
         "name": "WGS 84 / SCAR IMW SU41-45",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU41-45\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",75],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3283\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=75 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=75 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             60.0,
             -84.0,
@@ -20403,7 +20403,7 @@
         "code": 3284,
         "name": "WGS 84 / SCAR IMW SU46-50",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU46-50\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",105],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3284\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=105 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=105 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             90.0,
             -84.0,
@@ -20419,7 +20419,7 @@
         "code": 3285,
         "name": "WGS 84 / SCAR IMW SU51-55",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU51-55\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",135],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3285\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=135 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=135 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             120.0,
             -84.0,
@@ -20435,7 +20435,7 @@
         "code": 3286,
         "name": "WGS 84 / SCAR IMW SU56-60",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SU56-60\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",165],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3286\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=165 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=165 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             150.0,
             -84.0,
@@ -20451,7 +20451,7 @@
         "code": 3287,
         "name": "WGS 84 / SCAR IMW SV01-10",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SV01-10\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-150],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3287\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -88.0,
@@ -20467,7 +20467,7 @@
         "code": 3288,
         "name": "WGS 84 / SCAR IMW SV11-20",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SV11-20\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-90],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3288\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -120.0,
             -88.0,
@@ -20483,7 +20483,7 @@
         "code": 3289,
         "name": "WGS 84 / SCAR IMW SV21-30",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SV21-30\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",-30],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3289\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-30 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=-30 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -60.0,
             -88.0,
@@ -20499,7 +20499,7 @@
         "code": 3290,
         "name": "WGS 84 / SCAR IMW SV31-40",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SV31-40\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",30],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3290\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=30 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=30 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             0.0,
             -88.0,
@@ -20515,7 +20515,7 @@
         "code": 3291,
         "name": "WGS 84 / SCAR IMW SV41-50",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SV41-50\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",90],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3291\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             60.0,
             -88.0,
@@ -20531,7 +20531,7 @@
         "code": 3292,
         "name": "WGS 84 / SCAR IMW SV51-60",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SV51-60\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",150],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3292\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             120.0,
             -88.0,
@@ -20547,7 +20547,7 @@
         "code": 3293,
         "name": "WGS 84 / SCAR IMW SW01-60",
         "wkt": "PROJCS[\"WGS 84 / SCAR IMW SW01-60\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-80.2386111111111],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3293\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-80.2386111111111 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -22387,7 +22387,7 @@
         "code": 3408,
         "name": "NSIDC EASE-Grid North",
         "wkt": "PROJCS[\"NSIDC EASE-Grid North\",GEOGCS[\"NSIDC Authalic Sphere\",DATUM[\"NSIDC_International_1924_Authalic_Sphere\",SPHEROID[\"International 1924 Authalic Sphere\",6371228,0,AUTHORITY[\"EPSG\",\"7057\"]],AUTHORITY[\"EPSG\",\"1360\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10346\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3408\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +R=6371228 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +R=6371228 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             0.0,
@@ -22403,7 +22403,7 @@
         "code": 3409,
         "name": "NSIDC EASE-Grid South",
         "wkt": "PROJCS[\"NSIDC EASE-Grid South\",GEOGCS[\"NSIDC Authalic Sphere\",DATUM[\"NSIDC_International_1924_Authalic_Sphere\",SPHEROID[\"International 1924 Authalic Sphere\",6371228,0,AUTHORITY[\"EPSG\",\"7057\"]],AUTHORITY[\"EPSG\",\"1360\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10346\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3409\"]]",
-        "proj4": "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +R=6371228 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +R=6371228 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -22435,7 +22435,7 @@
         "code": 3411,
         "name": "NSIDC Sea Ice Polar Stereographic North",
         "wkt": "PROJCS[\"NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"Hughes 1980\",DATUM[\"Hughes_1980\",SPHEROID[\"Hughes 1980\",6378273,298.279411123064,AUTHORITY[\"EPSG\",\"7058\"]],AUTHORITY[\"EPSG\",\"1359\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10345\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3411\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -22451,7 +22451,7 @@
         "code": 3412,
         "name": "NSIDC Sea Ice Polar Stereographic South",
         "wkt": "PROJCS[\"NSIDC Sea Ice Polar Stereographic South\",GEOGCS[\"Hughes 1980\",DATUM[\"Hughes_1980\",SPHEROID[\"Hughes 1980\",6378273,298.279411123064,AUTHORITY[\"EPSG\",\"7058\"]],AUTHORITY[\"EPSG\",\"1359\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"10345\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-70],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3412\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -22467,7 +22467,7 @@
         "code": 3413,
         "name": "WGS 84 / NSIDC Sea Ice Polar Stereographic North",
         "wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",-45],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3413\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -24995,7 +24995,7 @@
         "code": 3571,
         "name": "WGS 84 / North Pole LAEA Bering Sea",
         "wkt": "PROJCS[\"WGS 84 / North Pole LAEA Bering Sea\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",180],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3571\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=180 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=180 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             45.0,
@@ -25011,7 +25011,7 @@
         "code": 3572,
         "name": "WGS 84 / North Pole LAEA Alaska",
         "wkt": "PROJCS[\"WGS 84 / North Pole LAEA Alaska\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",-150],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3572\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=-150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=-150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             45.0,
@@ -25027,7 +25027,7 @@
         "code": 3573,
         "name": "WGS 84 / North Pole LAEA Canada",
         "wkt": "PROJCS[\"WGS 84 / North Pole LAEA Canada\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",-100],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3573\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=-100 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=-100 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             45.0,
@@ -25043,7 +25043,7 @@
         "code": 3574,
         "name": "WGS 84 / North Pole LAEA Atlantic",
         "wkt": "PROJCS[\"WGS 84 / North Pole LAEA Atlantic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",-40],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3574\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=-40 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=-40 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             45.0,
@@ -25059,7 +25059,7 @@
         "code": 3575,
         "name": "WGS 84 / North Pole LAEA Europe",
         "wkt": "PROJCS[\"WGS 84 / North Pole LAEA Europe\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",10],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3575\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=10 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=10 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             45.0,
@@ -25075,7 +25075,7 @@
         "code": 3576,
         "name": "WGS 84 / North Pole LAEA Russia",
         "wkt": "PROJCS[\"WGS 84 / North Pole LAEA Russia\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",90],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3576\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             45.0,
@@ -30019,7 +30019,7 @@
         "code": 3973,
         "name": "WGS 84 / NSIDC EASE-Grid North",
         "wkt": "PROJCS[\"WGS 84 / NSIDC EASE-Grid North (deprecated)\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3973\"]]",
-        "proj4": "+proj=laea +R_A +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +R_A +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             0.0,
@@ -30035,7 +30035,7 @@
         "code": 3974,
         "name": "WGS 84 / NSIDC EASE-Grid South",
         "wkt": "PROJCS[\"WGS 84 / NSIDC EASE-Grid South (deprecated)\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3974\"]]",
-        "proj4": "+proj=laea +R_A +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=laea +R_A +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -30067,7 +30067,7 @@
         "code": 3976,
         "name": "WGS 84 / NSIDC Sea Ice Polar Stereographic South",
         "wkt": "PROJCS[\"WGS 84 / NSIDC Sea Ice Polar Stereographic South\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-70],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3976\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -30259,7 +30259,7 @@
         "code": 3995,
         "name": "WGS 84 / Arctic Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / Arctic Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",71],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3995\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lat_ts=71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -30275,7 +30275,7 @@
         "code": 3996,
         "name": "WGS 84 / IBCAO Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / IBCAO Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",75],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"3996\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lat_ts=75 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lat_ts=75 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -44483,7 +44483,7 @@
         "code": 5041,
         "name": "WGS 84 / UPS North (E,N)",
         "wkt": "PROJCS[\"WGS 84 / UPS North (E,N)\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5041\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -44499,7 +44499,7 @@
         "code": 5042,
         "name": "WGS 84 / UPS South (E,N)",
         "wkt": "PROJCS[\"WGS 84 / UPS South (E,N)\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5042\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -47523,7 +47523,7 @@
         "code": 5482,
         "name": "RSRGD2000 / RSPS2000",
         "wkt": "PROJCS[\"RSRGD2000 / RSPS2000\",GEOGCS[\"RSRGD2000\",DATUM[\"Ross_Sea_Region_Geodetic_Datum_2000\",SPHEROID[\"GRS 1980\",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4764\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",180],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",5000000],PARAMETER[\"false_northing\",1000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5482\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lon_0=180 +k=0.994 +x_0=5000000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lon_0=180 +k=0.994 +x_0=5000000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
         "bbox": [
             150.0,
             -90.0,
@@ -52275,7 +52275,7 @@
         "code": 5890,
         "name": "JAXA Snow Depth Polar Stereographic North",
         "wkt": "PROJCS[\"JAXA Snow Depth Polar Stereographic North (deprecated)\",GEOGCS[\"Unspecified datum based upon the Hughes 1980 ellipsoid (deprecated)\",DATUM[\"Not_specified_based_on_Hughes_1980_ellipsoid\",SPHEROID[\"Hughes 1980\",6378273,298.279411123064,AUTHORITY[\"EPSG\",\"7058\"]],AUTHORITY[\"EPSG\",\"6054\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4054\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",70],PARAMETER[\"central_meridian\",90],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5890\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=90 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=90 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -52595,7 +52595,7 @@
         "code": 5936,
         "name": "WGS 84 / EPSG Alaska Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / EPSG Alaska Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",-150],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5936\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=-150 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=-150 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -52611,7 +52611,7 @@
         "code": 5937,
         "name": "WGS 84 / EPSG Canada Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / EPSG Canada Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",-100],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5937\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=-100 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=-100 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -52627,7 +52627,7 @@
         "code": 5938,
         "name": "WGS 84 / EPSG Greenland Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / EPSG Greenland Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",-33],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5938\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=-33 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=-33 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -52643,7 +52643,7 @@
         "code": 5939,
         "name": "WGS 84 / EPSG Norway Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / EPSG Norway Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",18],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5939\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=18 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=18 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -52659,7 +52659,7 @@
         "code": 5940,
         "name": "WGS 84 / EPSG Russia Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / EPSG Russia Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",105],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"5940\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=105 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=105 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -63875,7 +63875,7 @@
         "code": 6931,
         "name": "WGS 84 / NSIDC EASE-Grid 2.0 North",
         "wkt": "PROJCS[\"WGS 84 / NSIDC EASE-Grid 2.0 North\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"6931\"]]",
-        "proj4": "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             0.0,
@@ -63891,7 +63891,7 @@
         "code": 6932,
         "name": "WGS 84 / NSIDC EASE-Grid 2.0 South",
         "wkt": "PROJCS[\"WGS 84 / NSIDC EASE-Grid 2.0 South\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"6932\"]]",
-        "proj4": "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -82595,7 +82595,7 @@
         "code": 9354,
         "name": "WGS 84 / IBCSO Polar Stereographic",
         "wkt": "PROJCS[\"WGS 84 / IBCSO Polar Stereographic\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-65],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"9354\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-65 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lat_ts=-65 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -110611,7 +110611,7 @@
         "code": 27702,
         "name": "WGS 84 / Equi7 Antarctica",
         "wkt": "PROJCS[\"WGS 84 / Equi7 Antarctica\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",-90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",3714266.977],PARAMETER[\"false_northing\",3402016.506],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"27702\"]]",
-        "proj4": "+proj=aeqd +lat_0=-90 +lon_0=0 +x_0=3714266.977 +y_0=3402016.506 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=aeqd +lat_0=-90 +lon_0=0 +x_0=3714266.977 +y_0=3402016.506 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,
@@ -122211,7 +122211,7 @@
         "code": 32661,
         "name": "WGS 84 / UPS North (N,E)",
         "wkt": "PROJCS[\"WGS 84 / UPS North (N,E)\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",90],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"32661\"]]",
-        "proj4": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=ssu +type=crs",
+        "proj4": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             60.0,
@@ -123299,7 +123299,7 @@
         "code": 32761,
         "name": "WGS 84 / UPS South (N,E)",
         "wkt": "PROJCS[\"WGS 84 / UPS South (N,E)\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",0.994],PARAMETER[\"false_easting\",2000000],PARAMETER[\"false_northing\",2000000],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"32761\"]]",
-        "proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +axis=nnu +type=crs",
+        "proj4": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs",
         "bbox": [
             -180.0,
             -90.0,

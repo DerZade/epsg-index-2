@@ -133,9 +133,20 @@ AXIS_ORIENTATION_MAP = {
 }
 NON_AXIS_ORIENTATIONS = {'geocentricx', 'geocentricy', 'geocentricz', 'unspecified'}
 
+# A +axis value must name exactly one direction per dimension.
+AXIS_PAIRS = ('ew', 'ns', 'ud')
+
 
 def proj4_axis(axis_info) -> str | None:
-    """Return a PROJ +axis value for an ordered sequence of CRS axes."""
+    """Return a PROJ +axis value for an ordered sequence of CRS axes, or None
+    if the axes cannot be expressed as one.
+
+    Some CRS have two axes pointing in the same cardinal direction, e.g. the
+    polar stereographic ones whose EPSG axis directions are "North along 90
+    deg E" and "North along 0 deg E" -- pyproj reports both as plain 'north'.
+    PROJ rejects the resulting +axis=nnu ("axisswap: duplicate axes
+    specified") and omits +axis for those CRS itself, so we do the same.
+    """
     directions = [axis.direction.lower() for axis in axis_info]
     if len(directions) < 2 or any(direction in NON_AXIS_ORIENTATIONS for direction in directions):
         return None
@@ -151,7 +162,11 @@ def proj4_axis(axis_info) -> str | None:
 
     if len(characters) > 3:
         return None
-    return ''.join(characters + ['u'] * (3 - len(characters)))
+
+    axis = ''.join(characters + ['u'] * (3 - len(characters)))
+    if any(sum(character in pair for character in axis) != 1 for pair in AXIS_PAIRS):
+        return None
+    return axis
 
 
 def with_axis(proj4: str | None, axis_info) -> str | None:
