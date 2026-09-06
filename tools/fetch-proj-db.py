@@ -30,29 +30,29 @@ from pathlib import Path
 
 OUT_DIR = Path(__file__).resolve().parent.parent / '.proj-data'
 STAMP_FILE = OUT_DIR / '.package'
-API_URL = 'https://api.anaconda.org/package/conda-forge/proj'
 CHANNEL_URL = 'https://conda.anaconda.org/conda-forge'
 SUBDIR = 'linux-64'
+# The channel's repodata.json is what conda itself installs from, so every file
+# it lists is actually downloadable. The api.anaconda.org listing is not: it has
+# been seen advertising builds that never made it to the CDN (404).
+REPODATA_URL = f'{CHANNEL_URL}/{SUBDIR}/repodata.json'
 
 
-def newest_package() -> dict:
-    """Return the conda-forge `proj` file with the highest version."""
-    with urllib.request.urlopen(API_URL) as response:
-        files = json.load(response)['files']
+def newest_package() -> str:
+    """Return the file name of the conda-forge `proj` package with the highest version."""
+    with urllib.request.urlopen(REPODATA_URL) as response:
+        packages = json.load(response)['packages.conda']
 
-    candidates = [
-        f
-        for f in files
-        if f['attrs'].get('subdir') == SUBDIR
-        and f['basename'].endswith('.conda')
-        and 'broken' not in f.get('labels', [])
-    ]
+    candidates = {
+        filename: info for filename, info in packages.items() if info['name'] == 'proj'
+    }
     if not candidates:
         sys.exit(f'No conda-forge proj package found for {SUBDIR}')
 
-    def sort_key(f: dict) -> tuple:
-        version = tuple(int(p) if p.isdigit() else 0 for p in f['version'].split('.'))
-        return version, f['attrs'].get('build_number', 0), f['upload_time']
+    def sort_key(filename: str) -> tuple:
+        info = candidates[filename]
+        version = tuple(int(p) if p.isdigit() else 0 for p in info['version'].split('.'))
+        return version, info.get('build_number', 0), info.get('timestamp', 0)
 
     return max(candidates, key=sort_key)
 
@@ -115,15 +115,14 @@ def database_metadata(data_dir: Path) -> dict[str, str]:
 
 
 def main() -> None:
-    package = newest_package()
-    basename = os.path.basename(package['basename'])
+    basename = newest_package()
 
     if STAMP_FILE.is_file() and STAMP_FILE.read_text().strip() == basename and (OUT_DIR / 'proj.db').is_file():
         metadata = database_metadata(OUT_DIR)
         print(f'{OUT_DIR} is already up to date ({basename}, EPSG {metadata["EPSG.VERSION"]})')
         return
 
-    url = f'{CHANNEL_URL}/{package["basename"]}'
+    url = f'{CHANNEL_URL}/{SUBDIR}/{basename}'
     print(f'Downloading {url}')
     with urllib.request.urlopen(url) as response:
         payload = response.read()
